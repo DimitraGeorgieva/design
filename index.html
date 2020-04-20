@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MitryDev</title>
+    <meta charset="UTF-8" />
+    <meta name="viewpoint" content="width=device-width, initial-scale=1"/>
+    <meta keywords="my first website, portfolio"/>
+    <meta name="description" content="This is my first portfolio website." />
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://kit.fontawesome.com/8acf72a046.js" crossorigin="anonymous" async></script>
+  </head>
+
+  <body>
+    <nav class="cd-stretchy-nav">
+      <a class="cd-nav-trigger" href="#0">
+        <span aria-hidden="true"></span>
+      </a>
+      <ul class="menu-nav">
+        <li>
+          <a href="#introduction"><span>About me</span><i class="fas fa-female"></i></a>
+        </li>
+        <li>
+          <a href="#skills"><span>Skills</span><i class="fab fa-pagelines"></i></a>
+        </li>
+        <li>
+          <a href="#projects"><span>Projects</span><i class="fas fa-project-diagram"></i></a>
+        </li>
+        <li>
+          <a href="#education"><span>Education</span><i class="fas fa-book-open"></i></a>
+        </li>
+      </ul>
+
+      <span aria-hidden="true" class="stretchy-nav-bg"></span>
+    </nav>
+
+    <section id="introduction">
+      <div id="portrait">
+        <img src="img/portrait.png" id="portrait-main"/>
+
+      </div>
+      <div id="about-me">
+        <h1>I am...</h1>
+
+        <ul class="text-focus-in">
+          <li id="lines1">Enthusiastic, positive and hard-working.</li>
+          <li id="lines2">Driven to develop problem-solving skills.</li>
+          <li id="lines3">
+            Eager to work with and learn from a talented team of professionals.
+          </li>
+          <li id="lines4">
+            A thirst for challenge and a desire to break from the conventional <br>
+            path are what first brought me to the field of IT.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--SKILLS-->
+    <section id="skills">
+      <div class="skills-left-visible" onclick="skillsLeft()">
+        <h3 class="skills-heading-left">Soft-Skills</h3>
+        <ul class="skills-list-left">
+          <li>Works well with others</li>
+          <li>Fast-learner</li>
+          <li>Optimistic</li>
+        </ul>
+        <img src="img/arrow.svg" class="arrow-left hide-text"/>
+      </div>
+
+      <div class="skills-right" onclick="skillsRight()">
+        <h3 class="skills-heading-right hide-text">Technical Skills</h3>
+        <ul class="skills-list-right hide-text">
+          <li>Java</li>                 
+          <li>C++</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Git</li>
+          <li>Eclipse</li>
+          <li>Intelij</li>
+          <li>Visual Studio Code</li>
+          <li>CLion</li>
+        </ul>
+
+       
+        <img src="img/arrow.svg" class="arrow-right" id="reverse"/>
+
+      </div>
+    </section>
+     
+<!--PROJECTS-->
+<div id="projects" class="header">
+    <h1>Projects </h1>
+</div>
+
+<div id="top"></div>
+<section class="projects">
+	<div class="row">
+		<ul>
+			<a href="#" class="close"></a>
+			<li>
+				<a href="#item01">
+					<i class="fab fa-gitlab"></i>
+				</a>
+			</li>
+
+			<li>
+				<a href="#item02">
+          <i class="fab fa-github"></i>
+				</a>
+			</li>
+
+      
+			<li>
+				<a href="#item03">
+					<i class="fas fa-rocket"></i>
+				</a>
+      </li>
+      
+      <li>
+				<a href="#item04">
+          <i class="fas fa-umbrella"></i>
+				</a>
+			</li>
+	
+	
+			
+		</ul>
+	</div> <!-- / row -->
+
+	<!-- Item 01 -->
+	<div id="item01" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Vectors</h1>
+        <p>Team project Vectors</p>	
+        <a href="https://about.gitlab.com/" target="_blank">Vectors</a>
+      </div>
+      </div>
+		</div>
+
+	</div> <!-- / Item 02 -->
+
+	<!-- Item 02 -->
+	<div id="item02" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Modular arithmetic</h1>
+      
+        <p>Modular arithmetics fundamentals </p>
+        <a href="https://github.com/" target="_blank">Modular arithmetic</a> 
+			</div>
+			
+		</div> <!-- / row -->
+
+  </div> <!-- / Item 02 -->
+  
+  	<!-- Robot -->
+	<div id="item03" class="port">
+	
+		<div class="row">
+			<div class="description">
+				<h1>Team project - robot car</h1>
+				<p>ADD description </p>
+      </div>
+      
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/d3TIxfB7L4Q"
+      frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+      gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		</div> 
+   </div> 
+
+
+</section> 
+
+
+
+<!-- EDUCATION/TIMELINE-->
+  
+     <section id="education">
+
+
+    
+      <div class="container">
+        <h3 class="heading-education">Education</h3>
+        <div id="timeline">
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fas fa-graduation-cap"></i>
+    
+            </div>
+            <div class="timeline-content">
+              <h2>01.10.2019 - ...</h2>
+              <p>
+                New Bulgarian University
+              </p>
+              <a href="https://ecatalog.nbu.bg/default.asp?V_Year=2020&PageShow=programpresent&P_Menu=courses_part1&Fac_ID=3&M_PHD=0&P_ID=832&TabIndex=1&l=0" target="_blank" class="btn">Informatics curriculum</a>
+              
+            </div>
+          </div>
+    
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fas fa-star"></i>
+    
+            </div>
+            <div class="timeline-content right" >
+              <h2>
+                23.04- 04.07.2019</h2>
+              <p>
+                Programming with Java 
+                Soft Academy, Sofia
+              </p>
+              <a href="img/CertificateSoftAcademy.pdf" target="_blank" class="btn">certificate</a>
+              
+              
+            </div>
+          </div>
+    
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fas fa-star"></i>
+
+    
+            </div>
+            <div class="timeline-content">
+              <h2> 04.05.2019 - 08.07.2019</h2>
+              <p>
+                
+                Programming Basics with Java - May 2019  
+                Software University, Sofia
+              </p>
+              <a href="img/SoftUniJava.png" target="_blank" class="btn">certificate</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+    <!-- CONTACTS-->
+    <section id="contacts">
+
+    
+
+    <div class="wrapper">
+      <div class="container-form">
+        <h1>Contacts</h1>
+        
+        <form class="form">
+          <input type="name" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea type="message" placeholder="Message" required></textarea>
+          <button type="submit" id="submit">Submit</button>
+          <br>
+
+          <a href="https://www.facebook.com/dimitra.georgieva99" target="_blank"><span><i class="fab fa-facebook-square"></i></span></a>
+          <a href="https://www.linkedin.com/in/dimitra-georgieva-754183183/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mail:dimitra.georgieva99@gmail.com"><i class="far fa-envelope"></i></a>
+          
+        </form>
+
+        
+        
+       
+      </div>
+      
+      <ul class="bg-bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+
+     
+    </div>
+
+   
+
+
+   
+
+
+    </section>
+
+
+
+
+
+
+
+<script src="jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+    <script src="typewriter.js"></script>
+    <script src="scripts.js"></script>
+
+    <script>
+      jQuery(document).ready(function() {
+        if ($(".cd-stretchy-nav").length > 0) {
+          var navs = $(".cd-stretchy-nav");
+
+          navs.each(function() {
+            var stretchyNav = $(this),
+              stretchyNavTrigger = stretchyNav.find(".cd-nav-trigger");
+            stretchyNavTrigger.on("click", function(event) {
+              event.preventDefault();
+              stretchyNav.toggleClass("nav-is-visible");
+            });
+          });
+          $(document).on("click", function(event) {
+            !$(event.target).is(".cd-nav-trigger") &&
+              !$(event.target).is(".cd-nav-trigger span") &&
+              stretchyNavs.removeClass("nav-is-visible");
+          });
+        }
+      });
+    </script>
+    <script>
+      function skillsRight() {
+        $(".skills-right").addClass("skills-right-visible");
+        
+
+        $(".skills-heading-left").addClass("hide-text");
+        $(".skills-list-left").addClass("hide-text");
+
+        $(".skills-heading-right").removeClass("hide-text");
+        $(".skills-list-right").removeClass("hide-text");
+
+        $(".skills-left-visible").removeClass("skills-left-visible").addClass("skills-left");
+
+        $(".arrow-right").addClass("hide-text");
+        setTimeout(function(){
+          $(".arrow-left").removeClass("hide-text");
+        },2000);
+       
+        
+
+      }
+
+      function skillsLeft() {
+        $(".skills-left").addClass("skills-left-visible");
+        
+
+        $(".skills-heading-right").addClass("hide-text");
+        $(".skills-list-right").addClass("hide-text");
+
+        $(".skills-heading-left").removeClass("hide-text");
+        $(".skills-list-left").removeClass("hide-text");
+
+        $(".skills-right-visible").removeClass("skills-right-visible")
+        .addClass("skills-right");
+
+        $(".arrow-left").addClass("hide-text");
+         setTimeout(function(){
+          $(".arrow-right").removeClass("hide-text");
+         },2000);
+
+      
+      }
+
+
+
+       // portfolio
+ $('.projects ul li a').click(function() {
+     var itemID = $(this).attr('href');
+     $('.projects ul').addClass('item_open');
+     $(itemID).addClass('item_open');
+     return false;
+ });
+ $('.close').click(function() {
+     $('.port, .projects ul').removeClass('item_open');
+     return false;
+ });
+
+ $(".projects ul li a").click(function() {
+     $('html, body').animate({
+         scrollTop: parseInt($("#top").offset().top)
+     }, 400);
+ });
+
+
+    </script>
+  </body>
+</html>
