@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Inria+Sans|Raleway&display=swap");
 :root {
-  --soft-green: #cadbb7;
+  --leaf-green:#000;
+  --soft-green:#000;
+  --turquoise:#000;
+  --khaki-green: #485936;
   --teal: #008080;
 }
 
@@ -125,16 +128,15 @@ a {
   background: transparent;
 }
 
-/* change colours if needed*/
 ins {
-  background-color: #ff9;
+  background-color: #fff;
   color: #000;
   text-decoration: none;
 }
 
-/* change colour if needed*/
+
 mark {
-  background-color: #ff9;
+  background-color: #fff;
   color: #000;
   font-style: italic;
   font-weight: bold;
@@ -155,7 +157,7 @@ table {
   border-spacing: 0;
 }
 
-/* change border colour if needed*/
+
 hr {
   display: block;
   height: 1px;
@@ -170,7 +172,7 @@ select {
   vertical-align: middle;
 }
 
-/*My code starts here*/
+/*BEGINING*/
 /*font - Raleway*/
 
 body {
@@ -496,7 +498,7 @@ body {
   position: relative;
   font-size: 26px;
   left: 58px;
-  color: white;
+  color: #fff;
 }
 
 .fa-pagelines {
@@ -590,7 +592,7 @@ a {
   background-color: #b4cc9e;
   color: #fcfbfc;
   transition: 2s;
-  /* position: absolute; */
+ 
 }
 
 .skills-right {
@@ -601,30 +603,9 @@ a {
   background-color: #9dcdbf;
   color: #fcfbfc;
   transition: 2s;
-  /* position: absolute; */
+  
 }
 
-/* 
-.skills-left:hover {
-  width: 30%;
-  height: 100%;
-  position: absolute;
-  z-index: 5;
-  display: block;
-  right: 0;
-  transition: 2s;
-}
-
-.skills-right:hover {
-  width: 30%;
-  height: 100%;
-  position: absolute;
-  z-index: 5;
-  display: block;
-  right: 0;
-  transition: 2s;
-
-} */
 
 .skills-heading-left,
 .skills-heading-right {
@@ -819,10 +800,17 @@ a {
   padding: 0 40px 40px;
   overflow: auto;
 }
+
+
 .port h1 {
   font-size: 35px;
   line-height: 2.3;
   padding: 0;
+}
+
+.description p{
+padding-top: 30px;
+font-size: 20px;
 }
 .port > * {
   opacity: 0;
@@ -874,50 +862,6 @@ a {
   color: #485936;
 }
 
-/* #triangle1 {
-  width: 60px;
-  height: 60px;
-  top: 400px;
-  left: 20%
-  position: relative;
-  
-}
-
-#triangle2 {
-  width: 60px;
-  height: 60px;
-  top: 350px;
-  left: 40%;
-  position: relative;
-  
-}
-
-#triangle3 {
-  width: 60px;
-  height: 60px;
-  top: 250px;
-  left: 20%;
-  position: relative;
-  
-}
-
-#triangle4 {
-  width: 60px;
-  height: 60px;
-  top: 600px;
-  left: 15%;
-  position: relative;
-}
-
-#square {
-  width: 60px;
-  height: 60px;
-  top: 580px;
-  left: 8%;
-  position: relative;
-} */
-
-/*education*/
 
 #education {
   background-color: #9dcdbf;
