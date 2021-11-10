@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MitryDev - Projects</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta keywords="logo design, work, portfolio, case study" />
+    <meta
+      name="description"
+      content="Some of my logo designs and site architectures."
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      charset="UTF-8"
+      href="css/work.css"
+      async
+    />
+  </head>
+
+  <body>
+    <nav>
+      <div class="container">
+        <div class="grid">
+          <div class="column-xs-12 column-md-10">
+            <a href="index.html"><p id="highlight">&#60;Mitry&#47;&#62;</p></a>
+          </div>
+          <div class="column-xs-12 column-md-2"></div>
+        </div>
+      </div>
+    </nav>
+    <section class="gallery">
+      <div class="container">
+        <div class="grid">
+          <div class="column-xs-12 column-md-4">
+            <figure class="img-container">
+              <img src="img/KitsuneCup.jpg" />
+              <figcaption class="img-content">
+                <h2 class="title">Board game cafe</h2>
+                <h3 class="category">Logo</h3>
+              </figcaption>
+              <span class="img-content-hover">
+                <h2 class="title">Board game cafe</h2>
+                <h3 class="category">Logo</h3>
+              </span>
+            </figure>
+          </div>
+          <div class="column-xs-12 column-md-4">
+            <figure class="img-container">
+              <img src="img/KitsuneCafe.jpg" />
+              <figcaption class="img-content">
+                <h2 class="title">Board game cafe</h2>
+                <h3 class="category">Logo</h3>
+              </figcaption>
+              <span class="img-content-hover">
+                <h2 class="title">Board game cafe</h2>
+                <h3 class="category">Logo</h3>
+              </span>
+            </figure>
+          </div>
+          <div class="column-xs-12 column-md-4">
+            <figure class="img-container">
+              <img src="img/Fashion.jpg" />
+              <figcaption class="img-content">
+                <h2 class="title">Plus size fasion</h2>
+                <h3 class="category">Logo</h3>
+              </figcaption>
+              <span class="img-content-hover">
+                <h2 class="title">Plus size fasion</h2>
+                <h3 class="category">Logo</h3>
+              </span>
+            </figure>
+          </div>
+          <div class="column-xs-12 column-md-6">
+            <figure class="img-container">
+              <img src="img/Circus.jpg" />
+              <figcaption class="img-content">
+                <h2 class="title">Circus</h2>
+                <h3 class="category">Logo</h3>
+              </figcaption>
+              <span class="img-content-hover">
+                <h2 class="title">Circus</h2>
+                <h3 class="category">Logo</h3>
+              </span>
+            </figure>
+          </div>
+          <div class="column-xs-12 column-md-6">
+            <figure class="img-container">
+              <img src="img/Circus-negative.jpg" />
+              <figcaption class="img-content">
+                <h2 class="title">Circus</h2>
+                <h3 class="category">Logo in negative</h3>
+              </figcaption>
+              <span class="img-content-hover">
+                <h2 class="title">Circus</h2>
+                <h3 class="category">Logo in negative</h3>
+              </span>
+            </figure>
+          </div>
+          <div class="column-xs-12">
+            <figure class="img-container">
+              <img src="img/Melody.jpg" />
+              <figcaption class="img-content">
+                <h2 class="title">Music app</h2>
+                <h3 class="category">Web site architecture</h3>
+              </figcaption>
+              <span class="img-content-hover">
+                <h2 class="title">Music app</h2>
+                <h3 class="category">Web site architecture</h3>
+              </span>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="grid">
+          <div class="column-xs-12">
+            <ul class="social">
+              <li>
+                <a
+                  href="https://dribbble.com/MitryDev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/Dribbble.svg" />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/instagram.svg"
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/dimitra-georgieva-754183183"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><img src="img/Linkedin.svg" />
+                </a>
+              </li>
+            </ul>
+            <p class="copyright">&copy; Dimitra Georgieva 2021</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const imgContent = document.querySelectorAll(".img-content-hover");
+
+      function showImgContent(e) {
+        for (var i = 0; i < imgContent.length; i++) {
+          x = e.pageX;
+          y = e.pageY;
+          imgContent[i].style.transform = `translate3d(${x}px, ${y}px, 0)`;
+        }
+      }
+
+      document.addEventListener("mousemove", showImgContent);
+    </script>
+  </body>
+</html>
